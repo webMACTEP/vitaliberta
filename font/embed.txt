@@ -1,0 +1,13 @@
+Embed SF Pro Display Font Family
+To embed your selected fonts into a webpage, copy this code into the head of your HTML document.
+
+Standard
+<link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+@import
+<style>
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+</style>
+Specify in CSS
+Use the following CSS rules to specify these families
+
+font-family: 'SF Pro Display', sans-serif;
