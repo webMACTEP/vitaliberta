@@ -311,6 +311,10 @@ body {
   background: #f2f7fc;
 }
 
+.intro .mrgn {
+  margin-left: -37px;
+}
+
 .intro span {
   position: relative;
   display: inline-block;
