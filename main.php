@@ -8,10 +8,8 @@ $sp_obj = new SpClass();
 
 while (have_posts()) : the_post(); ?>
 
-   <div class="page">
-      <div class="entry-content">
-         <?php the_content(); ?>
-      </div>
+   <div class="container">
+      <?php the_content(); ?>
    </div>
 
 <?php endwhile;
