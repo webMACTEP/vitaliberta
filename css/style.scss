@@ -15,6 +15,7 @@ h1 {
    color: $dark;
 }
 h2 {
+   margin: 0px 0px 60px 0px;
    font-weight: 600;
    font-size: 44px;
    line-height: 150%;
@@ -66,6 +67,7 @@ body {
    font-size: 16px;
    line-height: 150%;
    color: $tow;
+   background: $white;
 }
 .container {
    max-width: 1160px;
@@ -285,4 +287,28 @@ body {
       justify-content: space-between;
    }
    margin: 50px 0px 0px 0px;
+}
+.services {
+   .buttons {
+      margin: 0px 0px 60px 0px;
+      li {
+         cursor: pointer;
+         margin-left: -1px;
+
+         padding: 23px 24px;
+
+         background: #f2f7fc;
+         border: 1px solid #bfc7ce;
+         font-weight: 500;
+         font-size: 18px;
+         line-height: 150%;
+         text-align: center;
+         color: #64717b;
+      }
+      ul {
+         display: flex;
+         //justify-content: space-between;
+      }
+   }
+   padding: 100px 0px;
 }

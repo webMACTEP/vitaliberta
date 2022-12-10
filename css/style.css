@@ -225,6 +225,7 @@ h1 {
 }
 
 h2 {
+  margin: 0px 0px 60px 0px;
   font-weight: 600;
   font-size: 44px;
   line-height: 150%;
@@ -284,6 +285,7 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #64717b;
+  background: #ffffff;
 }
 
 .container {
@@ -569,4 +571,31 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.services {
+  padding: 100px 0px;
+}
+
+.services .buttons {
+  margin: 0px 0px 60px 0px;
+}
+
+.services .buttons li {
+  cursor: pointer;
+  margin-left: -1px;
+  padding: 23px 24px;
+  background: #f2f7fc;
+  border: 1px solid #bfc7ce;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #64717b;
+}
+
+.services .buttons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
