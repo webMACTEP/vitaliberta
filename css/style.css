@@ -267,6 +267,13 @@ body {
   padding: 12px 20px;
   border: 1px solid #0c1923;
   border-radius: 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.header .callback:hover {
+  background: #0c1923;
+  color: #fff;
 }
 
 .header li.active {
@@ -409,6 +416,15 @@ body {
   margin: 0px 0px 0px auto;
   border-radius: 5px;
   color: #fff;
+  border: 1px solid #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.footer .callback:hover {
+  background: #fff;
+  color: #0c1923;
+  border: 1px solid #0c1923;
 }
 
 .footer .item {
