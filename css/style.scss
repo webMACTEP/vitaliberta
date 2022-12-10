@@ -129,8 +129,28 @@ body {
    background: $bbg;
 }
 .footer {
+   .callback {
+      cursor: pointer;
+      width: 157px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      padding: 17px 0px;
+      background: #0c1923;
+      margin: 0px 0px 0px auto;
+      border-radius: 5px;
+      color: #fff;
+   }
+   .item {
+      margin: 0px 0px 30px 0px;
+   }
+   p {
+      margin: 0px 0px 25px 0px;
+   }
    .icons {
       width: 223px;
+      margin: 0px auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -148,7 +168,7 @@ body {
    }
    .row {
       border-bottom: 1px solid #bfc7ce;
-      padding: 0px 0px 60px 0px;
+      padding: 0px 0px 30px 0px;
       margin: 0px 0px 60px 0px;
    }
    .column {

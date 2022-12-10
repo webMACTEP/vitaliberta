@@ -378,8 +378,31 @@ body {
   padding: 60px 0px 0px 0px;
 }
 
+.footer .callback {
+  cursor: pointer;
+  width: 157px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px 0px;
+  background: #0c1923;
+  margin: 0px 0px 0px auto;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.footer .item {
+  margin: 0px 0px 30px 0px;
+}
+
+.footer p {
+  margin: 0px 0px 25px 0px;
+}
+
 .footer .icons {
   width: 223px;
+  margin: 0px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,7 +433,7 @@ body {
 
 .footer .row {
   border-bottom: 1px solid #bfc7ce;
-  padding: 0px 0px 60px 0px;
+  padding: 0px 0px 30px 0px;
   margin: 0px 0px 60px 0px;
 }
 
