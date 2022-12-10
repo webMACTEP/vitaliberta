@@ -600,10 +600,28 @@ body {
   color: #0c1923;
 }
 
+.services .buttons li:hover::after, .services .buttons li.active::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  top: 100%;
+  background: #fff;
+  margin-left: -10px;
+  border: 1px solid #bfc7ce;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  overflow: hidden;
+  margin-top: -10px;
+}
+
 .services .buttons li:hover::before, .services .buttons li.active::before {
   content: "";
   position: absolute;
-  left: 0;
+  left: 0px;
   top: 0;
   height: 7px;
   width: 100%;
