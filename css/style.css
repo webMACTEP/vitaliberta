@@ -449,6 +449,16 @@ body {
           align-items: center;
 }
 
+.footer .icons a svg {
+  fill: #0c1923;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.footer .icons a:hover svg {
+  fill: #15466f;
+}
+
 .footer .copyright {
   margin: 40px 0px 0px 0px;
   padding: 6px 0px;

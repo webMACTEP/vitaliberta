@@ -186,6 +186,17 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      a {
+         svg {
+            fill: $dark;
+            transition: 0.2s;
+         }
+         &:hover {
+            svg {
+               fill: #15466f;
+            }
+         }
+      }
    }
    .copyright {
       margin: 40px 0px 0px 0px;
