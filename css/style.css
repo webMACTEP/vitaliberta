@@ -217,6 +217,20 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  color: #0c1923;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 150%;
+  color: #0c1923;
+}
+
 body {
   font-family: "SF Pro Display", sans-serif;
   font-style: normal;
@@ -287,6 +301,62 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.intro {
+  padding: 100px 0px;
+  background: #f2f7fc;
+}
+
+.intro span {
+  position: relative;
+  display: inline-block;
+  padding: 0px 37px;
+  background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+  color: #ffffff;
+}
+
+.intro span::before {
+  position: absolute;
+  content: "";
+  height: 60px;
+  width: 37px;
+  background: #f2f7fc;
+  left: -2px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+}
+
+.intro span::after {
+  position: absolute;
+  content: "";
+  height: 60px;
+  width: 37px;
+  background: #f2f7fc;
+  right: -2px;
+  -webkit-clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.intro h1 {
+  max-width: 670px;
+  margin: 0px 0px 37px 0px;
+}
+
+.intro p {
+  max-width: 660px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.intro .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
