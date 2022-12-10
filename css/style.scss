@@ -129,6 +129,26 @@ body {
    background: $bbg;
 }
 .footer {
+   li {
+      margin: 0px 0px 20px 0px;
+   }
+   nav {
+      li {
+         a {
+            color: #0c1923;
+            font-weight: 500;
+            font-size: 16px !important;
+            line-height: 150%;
+         }
+      }
+   }
+   h4 {
+      margin: 0px 0px 20px 0px;
+      color: #0c1923;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+   }
    .callback {
       cursor: pointer;
       width: 157px;
@@ -156,6 +176,10 @@ body {
       align-items: center;
    }
    .copyright {
+      margin: 40px 0px 0px 0px;
+      p {
+         margin: 0px 0px 0px 0px;
+      }
       padding: 6px 0px;
       font-weight: 400;
       font-size: 12px;
