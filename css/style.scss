@@ -19,6 +19,39 @@ h2 {
    font-size: 44px;
    line-height: 150%;
    color: $dark;
+   span {
+      &.white-bg {
+         &::before {
+            background: #fff;
+         }
+         &::after {
+            background: #fff;
+         }
+      }
+      position: relative;
+      display: inline-block;
+      padding: 0px 37px;
+      background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+      color: $white;
+      &::before {
+         position: absolute;
+         content: "";
+         height: 67px;
+         width: 37px;
+         background: $bbg;
+         left: -2px;
+         clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+      }
+      &::after {
+         position: absolute;
+         content: "";
+         height: 67px;
+         width: 37px;
+         background: $bbg;
+         right: -2px;
+         clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+      }
+   }
 }
 a {
    color: $tow;
@@ -93,7 +126,6 @@ body {
    span {
       position: relative;
       display: inline-block;
-      //clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
       padding: 0px 37px;
       background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
       color: $white;

@@ -231,6 +231,44 @@ h2 {
   color: #0c1923;
 }
 
+h2 span {
+  position: relative;
+  display: inline-block;
+  padding: 0px 37px;
+  background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+  color: #ffffff;
+}
+
+h2 span.white-bg::before {
+  background: #fff;
+}
+
+h2 span.white-bg::after {
+  background: #fff;
+}
+
+h2 span::before {
+  position: absolute;
+  content: "";
+  height: 67px;
+  width: 37px;
+  background: #f2f7fc;
+  left: -2px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+}
+
+h2 span::after {
+  position: absolute;
+  content: "";
+  height: 67px;
+  width: 37px;
+  background: #f2f7fc;
+  right: -2px;
+  -webkit-clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
 a {
   color: #64717b;
 }
