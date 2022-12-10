@@ -20,6 +20,9 @@ h2 {
    line-height: 150%;
    color: $dark;
 }
+a {
+   color: $tow;
+}
 body {
    font-family: "SF Pro Display", sans-serif;
    font-style: normal;
@@ -121,4 +124,47 @@ body {
    }
    padding: 100px 0px;
    background: $bbg;
+}
+.footer {
+   .icons {
+      width: 223px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .copyright {
+      padding: 6px 0px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+      background: #0c1923;
+      .container {
+         display: flex;
+         justify-content: space-between;
+      }
+   }
+   .row {
+      border-bottom: 1px solid #bfc7ce;
+      padding: 0px 0px 60px 0px;
+      margin: 0px 0px 60px 0px;
+   }
+   .column {
+      max-width: 270px;
+   }
+   h3 {
+      margin: 0px 0px 20px 0px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+      color: $dark;
+   }
+   .logo {
+      display: block;
+      width: 200px;
+   }
+   .wrapp {
+      display: flex;
+      justify-content: space-between;
+   }
+   padding: 60px 0px 0px 0px;
 }

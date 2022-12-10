@@ -231,6 +231,10 @@ h2 {
   color: #0c1923;
 }
 
+a {
+  color: #64717b;
+}
+
 body {
   font-family: "SF Pro Display", sans-serif;
   font-style: normal;
@@ -358,6 +362,72 @@ body {
 }
 
 .intro .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer {
+  padding: 60px 0px 0px 0px;
+}
+
+.footer .icons {
+  width: 223px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .copyright {
+  padding: 6px 0px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  background: #0c1923;
+}
+
+.footer .copyright .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .row {
+  border-bottom: 1px solid #bfc7ce;
+  padding: 0px 0px 60px 0px;
+  margin: 0px 0px 60px 0px;
+}
+
+.footer .column {
+  max-width: 270px;
+}
+
+.footer h3 {
+  margin: 0px 0px 20px 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #0c1923;
+}
+
+.footer .logo {
+  display: block;
+  width: 200px;
+}
+
+.footer .wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
