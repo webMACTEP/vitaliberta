@@ -306,7 +306,7 @@ body {
          &:hover,
          &.active {
             background: $white;
-
+            color: $dark;
             &::before {
                content: "";
                position: absolute;

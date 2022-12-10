@@ -597,6 +597,7 @@ body {
 
 .services .buttons li:hover, .services .buttons li.active {
   background: #ffffff;
+  color: #0c1923;
 }
 
 .services .buttons li:hover::before, .services .buttons li.active::before {
