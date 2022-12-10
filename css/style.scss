@@ -22,6 +22,9 @@ h2 {
 }
 a {
    color: $tow;
+   &:hover {
+      text-decoration: underline;
+   }
 }
 body {
    font-family: "SF Pro Display", sans-serif;
@@ -149,7 +152,13 @@ body {
       margin: 0px 0px 60px 0px;
    }
    .column {
-      max-width: 270px;
+      &.shish {
+         width: 270px;
+      }
+      width: 250px;
+      a {
+         font-size: 14px;
+      }
    }
    h3 {
       margin: 0px 0px 20px 0px;

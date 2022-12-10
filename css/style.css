@@ -235,6 +235,10 @@ a {
   color: #64717b;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   font-family: "SF Pro Display", sans-serif;
   font-style: normal;
@@ -411,7 +415,15 @@ body {
 }
 
 .footer .column {
-  max-width: 270px;
+  width: 250px;
+}
+
+.footer .column.shish {
+  width: 270px;
+}
+
+.footer .column a {
+  font-size: 14px;
 }
 
 .footer h3 {
