@@ -292,11 +292,10 @@ body {
    .buttons {
       margin: 0px 0px 60px 0px;
       li {
+         position: relative;
          cursor: pointer;
          margin-left: -1px;
-
          padding: 23px 24px;
-
          background: #f2f7fc;
          border: 1px solid #bfc7ce;
          font-weight: 500;
@@ -304,10 +303,23 @@ body {
          line-height: 150%;
          text-align: center;
          color: #64717b;
+         &:hover,
+         &.active {
+            background: $white;
+
+            &::before {
+               content: "";
+               position: absolute;
+               left: 0;
+               top: 0;
+               height: 7px;
+               width: 100%;
+               background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+            }
+         }
       }
       ul {
          display: flex;
-         //justify-content: space-between;
       }
    }
    padding: 100px 0px;

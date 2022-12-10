@@ -582,6 +582,7 @@ body {
 }
 
 .services .buttons li {
+  position: relative;
   cursor: pointer;
   margin-left: -1px;
   padding: 23px 24px;
@@ -592,6 +593,20 @@ body {
   line-height: 150%;
   text-align: center;
   color: #64717b;
+}
+
+.services .buttons li:hover, .services .buttons li.active {
+  background: #ffffff;
+}
+
+.services .buttons li:hover::before, .services .buttons li.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 7px;
+  width: 100%;
+  background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
 }
 
 .services .buttons ul {
