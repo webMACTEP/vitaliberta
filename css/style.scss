@@ -130,7 +130,7 @@ body {
 }
 .footer {
    li {
-      margin: 0px 0px 20px 0px;
+      margin: 0px 0px 15px 0px;
    }
    nav {
       li {
@@ -198,6 +198,10 @@ body {
    .column {
       &.shish {
          width: 270px;
+         margin-left: 70px;
+         li {
+            margin: 0px 0px 20px 0px;
+         }
       }
       width: 250px;
       a {

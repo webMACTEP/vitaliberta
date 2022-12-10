@@ -379,7 +379,7 @@ body {
 }
 
 .footer li {
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 15px 0px;
 }
 
 .footer nav li a {
@@ -467,6 +467,11 @@ body {
 
 .footer .column.shish {
   width: 270px;
+  margin-left: 70px;
+}
+
+.footer .column.shish li {
+  margin: 0px 0px 20px 0px;
 }
 
 .footer .column a {
