@@ -83,6 +83,10 @@ body {
    background: #0c1923;
    color: #fff;
    border-radius: 5px;
+   transition: 0.2s;
+   &:hover {
+      background: #15466f;
+   }
 }
 
 .header {

@@ -303,6 +303,12 @@ body {
   background: #0c1923;
   color: #fff;
   border-radius: 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.butt-more:hover {
+  background: #15466f;
 }
 
 .header {
