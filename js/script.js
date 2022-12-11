@@ -1,5 +1,12 @@
 jQuery(document).ready(function ($) {
 
+
+	$('ul.tabs__caption').on('click', 'li:not(.is-active)', function () {
+		$(this)
+			.addClass('is-active').siblings().removeClass('is-active')
+			.closest('div.tabs').find('div.tabs__content').removeClass('is-active').eq($(this).index()).addClass('is-active');
+	});
+
 	$('.benefits-butt').click(function (event) {
 		$('.benefits-wrapper').addClass('active');
 		$('.benefits-butt').addClass('active');

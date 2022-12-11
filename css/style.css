@@ -595,6 +595,14 @@ body {
   padding: 100px 0px;
 }
 
+.services .tabs__content {
+  display: none;
+}
+
+.services .tabs__content.is-active {
+  display: block;
+}
+
 .services .text {
   width: 100%;
   -webkit-box-flex: 1;
@@ -690,12 +698,12 @@ body {
   padding: 23px 10px;
 }
 
-.services .buttons li:hover, .services .buttons li.active {
+.services .buttons li.is-active {
   background: #ffffff;
   color: #0c1923;
 }
 
-.services .buttons li:hover::after, .services .buttons li.active::after {
+.services .buttons li.is-active::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -713,7 +721,7 @@ body {
   margin-top: -10px;
 }
 
-.services .buttons li:hover::before, .services .buttons li.active::before {
+.services .buttons li.is-active::before {
   content: "";
   position: absolute;
   left: 0px;

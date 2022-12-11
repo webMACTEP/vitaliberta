@@ -305,6 +305,12 @@ body {
    margin: 50px 0px 0px 0px;
 }
 .services {
+   .tabs__content {
+      display: none;
+      &.is-active {
+         display: block;
+      }
+   }
    .text {
       width: 100%;
 
@@ -372,8 +378,8 @@ body {
          line-height: 150%;
          text-align: center;
          color: #64717b;
-         &:hover,
-         &.active {
+
+         &.is-active {
             background: $white;
             color: $dark;
             &::after {
@@ -591,7 +597,6 @@ body {
    background: #f2f7fc;
 }
 .countries {
-   //margin: 0px 0px 60px 0px;
    h2 {
       max-width: 400px;
    }
