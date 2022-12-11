@@ -1,5 +1,16 @@
 jQuery(document).ready(function ($) {
 
+	$('.benefits-butt').click(function (event) {
+		$('.benefits-wrapper').addClass('active');
+		$('.benefits-butt').addClass('active');
+		//$('.item03').removeClass('active');
+	});
+	$('.choice-butt').click(function (event) {
+		$('.choice-wrapper').addClass('active');
+		$('.choice-butt').addClass('active');
+		//$('.item03').removeClass('active');
+	});
+
 	//WOW
 	//new WOW().init();
 

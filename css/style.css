@@ -737,6 +737,10 @@ body {
   padding: 100px 0px;
 }
 
+.choice .choice-butt.active {
+  display: none;
+}
+
 .choice .info {
   overflow: hidden;
   max-height: 250px;
@@ -779,6 +783,12 @@ body {
   gap: 40px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  overflow: hidden;
+  max-height: 480px;
+}
+
+.choice .wrapper.active {
+  max-height: none;
 }
 
 .choice h2 {
@@ -787,6 +797,10 @@ body {
 
 .benefits {
   padding: 100px 0px;
+}
+
+.benefits .benefits-butt.active {
+  display: none;
 }
 
 .benefits .title {
@@ -822,6 +836,12 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 40px;
+  max-height: 640px;
+  overflow: hidden;
+}
+
+.benefits .wrapper.active {
+  max-height: none;
 }
 
 .recommendations {

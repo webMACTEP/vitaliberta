@@ -412,6 +412,11 @@ body {
    padding: 100px 0px;
 }
 .choice {
+   .choice-butt {
+      &.active {
+         display: none;
+      }
+   }
    .info {
       overflow: hidden;
       max-height: 250px;
@@ -443,10 +448,14 @@ body {
       max-width: 360px;
    }
    .wrapper {
+      &.active {
+         max-height: none;
+      }
       display: flex;
       gap: 40px;
-      //justify-content: space-between;
       flex-wrap: wrap;
+      overflow: hidden;
+      max-height: 480px;
    }
    h2 {
       font-size: 43px;
@@ -455,6 +464,11 @@ body {
    padding: 100px 0px;
 }
 .benefits {
+   .benefits-butt {
+      &.active {
+         display: none;
+      }
+   }
    .title {
       margin: 30px 0px 20px 0px;
       font-weight: 500;
@@ -480,6 +494,11 @@ body {
       display: flex;
       flex-wrap: wrap;
       gap: 40px;
+      max-height: 640px;
+      overflow: hidden;
+      &.active {
+         max-height: none;
+      }
    }
    padding: 100px 0px;
 }
