@@ -590,3 +590,21 @@ body {
    padding: 100px 0px;
    background: #f2f7fc;
 }
+.countries {
+   margin: 0px 0px 60px 0px;
+   h2 {
+      max-width: 400px;
+   }
+   p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #8e9194;
+      max-width: 660px;
+   }
+   .wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+   padding: 100px 0px;
+}

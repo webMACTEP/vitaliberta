@@ -966,3 +966,29 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.countries {
+  margin: 0px 0px 60px 0px;
+  padding: 100px 0px;
+}
+
+.countries h2 {
+  max-width: 400px;
+}
+
+.countries p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8e9194;
+  max-width: 660px;
+}
+
+.countries .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
