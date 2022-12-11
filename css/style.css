@@ -1011,6 +1011,7 @@ body {
 
 .aboutus .butt:hover {
   background: #15466f;
+  text-decoration: none;
 }
 
 .aboutus p {
