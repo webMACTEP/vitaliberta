@@ -396,6 +396,17 @@ body {
    padding: 100px 0px;
 }
 .choice {
+   .butt {
+      margin: 60px auto 0px auto;
+      cursor: pointer;
+      text-align: center;
+      max-width: 222px;
+      display: block;
+      padding: 17px 22px;
+      background: #0c1923;
+      color: #fff;
+      border-radius: 5px;
+   }
    .info {
       overflow: hidden;
       max-height: 250px;
