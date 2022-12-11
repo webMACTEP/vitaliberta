@@ -577,15 +577,81 @@ body {
   padding: 100px 0px;
 }
 
+.services .text {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.services .butt {
+  width: 100%;
+  display: block;
+}
+
+.services .subtitle {
+  width: 100%;
+  margin: 20px 0px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.services .title {
+  width: 100%;
+  color: #0c1923;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.services .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  border: 1px solid #b6babd;
+  -webkit-box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+          box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+  padding: 40px 30px;
+  margin: 0px 0px 20px 0px;
+  max-width: 560px;
+  min-height: 380px;
+}
+
+.services .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 40px;
+}
+
 .services .buttons {
   margin: 0px 0px 60px 0px;
 }
 
 .services .buttons li {
+  width: 15%;
   position: relative;
   cursor: pointer;
   margin-left: -1px;
-  padding: 23px 24px;
+  padding: 23px 0px;
   background: #f2f7fc;
   border: 1px solid #bfc7ce;
   font-weight: 500;
@@ -593,6 +659,11 @@ body {
   line-height: 150%;
   text-align: center;
   color: #64717b;
+}
+
+.services .buttons li.butt05 {
+  width: 20%;
+  padding: 23px 10px;
 }
 
 .services .buttons li:hover, .services .buttons li.active {
@@ -632,4 +703,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
