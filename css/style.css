@@ -607,7 +607,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .services .title {
@@ -713,4 +712,57 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.choice {
+  background: #f2f7fc;
+  padding: 100px 0px;
+}
+
+.choice .info {
+  overflow: hidden;
+  max-height: 250px;
+}
+
+.choice p {
+  margin: 0px 0px 20px 0px;
+}
+
+.choice .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0px 0px 20px 0px;
+  color: #0c1923;
+}
+
+.choice span {
+  font-weight: 600;
+  background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 54px;
+  line-height: 150%;
+}
+
+.choice .item {
+  padding: 40px 30px;
+  height: 479px;
+  background: #ffffff;
+  border: 1px solid #bfc7ce;
+  max-width: 360px;
+}
+
+.choice .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.choice h2 {
+  font-size: 43px;
 }
