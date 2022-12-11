@@ -829,6 +829,55 @@ body {
   background: #f2f7fc;
 }
 
+.recommendations .container {
+  position: relative;
+}
+
+.recommendations .navig {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #64717b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 227px;
+  height: 42px;
+  position: absolute;
+  right: 0px;
+  top: 50px;
+}
+
+.recommendations .navig .swiper-button-prev {
+  position: relative;
+  top: 0;
+  left: auto;
+  width: 42px;
+  height: 42px;
+  margin: 0px 0px 0px 0px;
+  background-image: url("../img/swiper-arrow.svg");
+  background-size: 42px 42px;
+}
+
+.recommendations .navig .swiper-button-next {
+  position: relative;
+  top: 0;
+  width: 42px;
+  height: 42px;
+  margin: 0px 0px 0px 0px;
+  background-image: url("../img/swiper-arrow.svg");
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  background-size: 42px 42px;
+}
+
 .recommendations .butt {
   display: -webkit-box;
   display: -ms-flexbox;

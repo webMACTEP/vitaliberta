@@ -484,6 +484,44 @@ body {
    padding: 100px 0px;
 }
 .recommendations {
+   .container {
+      position: relative;
+   }
+   .navig {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+      color: #64717b;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      width: 227px;
+      height: 42px;
+      position: absolute;
+      right: 0px;
+      top: 50px;
+      .swiper-button-prev {
+         position: relative;
+         top: 0;
+         left: auto;
+         width: 42px;
+         height: 42px;
+         margin: 0px 0px 0px 0px;
+         background-image: url("../img/swiper-arrow.svg");
+         background-size: 42px 42px;
+      }
+      .swiper-button-next {
+         position: relative;
+         top: 0;
+         width: 42px;
+         height: 42px;
+         margin: 0px 0px 0px 0px;
+         background-image: url("../img/swiper-arrow.svg");
+         transform: rotate(180deg);
+         background-size: 42px 42px;
+      }
+   }
    .butt {
       display: flex;
       align-items: center;
