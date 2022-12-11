@@ -10,12 +10,16 @@ jQuery(document).ready(function ($) {
 				nextEl: '.swiper-button-next',
 				prevEl: '.swiper-button-prev',
 			},
-			loop: true,
+			loop: false,
 			// autoplay: {
 			// 	delay: 5000,
 			// 	disableOnInteraction: false,
 			// },
 			simulateTouch: true,
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'fraction',
+			},
 		});
 	} else {
 		$('.swiper-button-next').css('display', 'none');
