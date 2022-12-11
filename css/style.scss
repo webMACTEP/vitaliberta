@@ -513,12 +513,14 @@ body {
       color: #0c1923;
       margin: 0px 0px 20px 0px;
    }
+   .swiper-container {
+      border: 1px solid #bfc7ce;
+   }
    .wrapper {
       padding: 40px 145px 40px 100px;
       display: flex;
       justify-content: space-between;
       background: #ffffff;
-      border: 1px solid #bfc7ce;
    }
    .img {
       img {

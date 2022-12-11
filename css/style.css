@@ -876,6 +876,10 @@ body {
   margin: 0px 0px 20px 0px;
 }
 
+.recommendations .swiper-container {
+  border: 1px solid #bfc7ce;
+}
+
 .recommendations .wrapper {
   padding: 40px 145px 40px 100px;
   display: -webkit-box;
@@ -885,7 +889,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: #ffffff;
-  border: 1px solid #bfc7ce;
 }
 
 .recommendations .img img {
