@@ -992,3 +992,129 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.aboutus {
+  padding: 100px 0px 50px 0px;
+}
+
+.aboutus .butt {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 17px 22px;
+  background: #0c1923;
+  border-radius: 5px;
+}
+
+.aboutus .butt:hover {
+  background: #15466f;
+}
+
+.aboutus p {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #64717b;
+}
+
+.aboutus h3 {
+  margin: 0px 0px 30px 0px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  /* identical to box height, or 42px */
+  /* dark */
+  color: #0c1923;
+}
+
+.aboutus .info {
+  max-width: 503px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutus .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 360px;
+  height: 225px;
+  background: linear-gradient(90.71deg, #e8eff7 7.27%, #cfeaff 97.55%);
+  border-radius: 20px;
+}
+
+.aboutus .logo img {
+  width: 307px;
+}
+
+.aboutus .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutus .container {
+  background: #f2f7fc;
+  padding: 100px;
+}
+
+.start {
+  padding: 50px 0px;
+}
+
+.start .butt {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0c1923;
+  padding: 17px 22px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.start .butt:hover {
+  color: #ffffff;
+  background: #0c1923;
+}
+
+.start .text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.start .wrapper {
+  background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
+  padding: 60px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
