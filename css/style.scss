@@ -437,16 +437,17 @@ body {
       margin: 0px 0px 20px 0px;
       color: $dark;
    }
-   span {
-      font-weight: 600;
-      background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      font-size: 54px;
-      line-height: 150%;
-   }
+
    .item {
+      span {
+         font-weight: 600;
+         background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         background-clip: text;
+         font-size: 54px;
+         line-height: 150%;
+      }
       padding: 40px 30px;
       height: 479px;
       background: #ffffff;
