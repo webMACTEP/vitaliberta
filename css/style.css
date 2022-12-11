@@ -293,6 +293,18 @@ body {
   margin: 0px auto;
 }
 
+.butt-more {
+  margin: 60px auto 0px auto;
+  cursor: pointer;
+  text-align: center;
+  max-width: 222px;
+  display: block;
+  padding: 17px 22px;
+  background: #0c1923;
+  color: #fff;
+  border-radius: 5px;
+}
+
 .header {
   background: #ffffff;
   padding: 30px 0px;
@@ -719,18 +731,6 @@ body {
   padding: 100px 0px;
 }
 
-.choice .butt {
-  margin: 60px auto 0px auto;
-  cursor: pointer;
-  text-align: center;
-  max-width: 222px;
-  display: block;
-  padding: 17px 22px;
-  background: #0c1923;
-  color: #fff;
-  border-radius: 5px;
-}
-
 .choice .info {
   overflow: hidden;
   max-height: 250px;
@@ -777,4 +777,43 @@ body {
 
 .choice h2 {
   font-size: 43px;
+}
+
+.benefits {
+  padding: 100px 0px;
+}
+
+.benefits .title {
+  margin: 30px 0px 20px 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #0c1923;
+}
+
+.benefits .text {
+  padding: 40px 25px 10px 30px;
+}
+
+.benefits .item {
+  border: 1px solid #bfc7ce;
+  margin: 0px 0px 20px 0px;
+  width: 560px;
+  height: 286px;
+}
+
+.benefits .item img {
+  width: 560px;
+  height: 286px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.benefits .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 40px;
 }
