@@ -830,3 +830,35 @@ body {
 
    padding: 100px 0px;
 }
+.management {
+   span {
+      font-style: italic;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+   }
+   .title {
+      margin: 40px 0px 0px 0px;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 150%;
+      color: #0c1923;
+   }
+   .item {
+      text-align: center;
+   }
+   .wrapper {
+      display: flex;
+      gap: 40px;
+   }
+   h2 {
+      margin: 0px 0px 30px 0px;
+   }
+   p {
+      margin: 0px 0px 60px 0px;
+      max-width: 890px;
+      font-size: 18px;
+   }
+   background: #f2f7fc;
+   padding: 100px 0px;
+}

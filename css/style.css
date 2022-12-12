@@ -1292,3 +1292,44 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.management {
+  background: #f2f7fc;
+  padding: 100px 0px;
+}
+
+.management span {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.management .title {
+  margin: 40px 0px 0px 0px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  color: #0c1923;
+}
+
+.management .item {
+  text-align: center;
+}
+
+.management .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.management h2 {
+  margin: 0px 0px 30px 0px;
+}
+
+.management p {
+  margin: 0px 0px 60px 0px;
+  max-width: 890px;
+  font-size: 18px;
+}
