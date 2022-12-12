@@ -13,6 +13,43 @@ h1 {
    font-size: 40px;
    line-height: 150%;
    color: $dark;
+   .mrgn {
+      margin-left: -37px;
+   }
+
+   span {
+      &.white-bg {
+         &::before {
+            background: #fff;
+         }
+         &::after {
+            background: #fff;
+         }
+      }
+      position: relative;
+      display: inline-block;
+      padding: 0px 37px;
+      background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+      color: $white;
+      &::before {
+         position: absolute;
+         content: "";
+         height: 67px;
+         width: 37px;
+         background: $bbg;
+         left: -2px;
+         clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+      }
+      &::after {
+         position: absolute;
+         content: "";
+         height: 67px;
+         width: 37px;
+         background: $bbg;
+         right: -2px;
+         clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+      }
+   }
 }
 h2 {
    margin: 0px 0px 60px 0px;
@@ -20,6 +57,9 @@ h2 {
    font-size: 44px;
    line-height: 150%;
    color: $dark;
+   .mrgn {
+      margin-left: -37px;
+   }
    span {
       &.white-bg {
          &::before {
@@ -139,52 +179,6 @@ body {
    }
    background: $white;
    padding: 30px 0px;
-}
-.intro {
-   .mrgn {
-      margin-left: -37px;
-   }
-   span {
-      position: relative;
-      display: inline-block;
-      padding: 0px 37px;
-      background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
-      color: $white;
-      &::before {
-         position: absolute;
-         content: "";
-         height: 60px;
-         width: 37px;
-         background: $bbg;
-         left: -2px;
-         clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
-      }
-      &::after {
-         position: absolute;
-         content: "";
-         height: 60px;
-         width: 37px;
-         background: $bbg;
-         right: -2px;
-         clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
-      }
-   }
-   h1 {
-      max-width: 670px;
-      margin: 0px 0px 37px 0px;
-   }
-   p {
-      max-width: 660px;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 28px;
-   }
-   .wrapp {
-      display: flex;
-      justify-content: space-between;
-   }
-   padding: 100px 0px;
-   background: $bbg;
 }
 .footer {
    .map {
@@ -306,6 +300,53 @@ body {
       justify-content: space-between;
    }
    margin: 50px 0px 0px 0px;
+}
+//main-page
+.intro {
+   .mrgn {
+      margin-left: -37px;
+   }
+   span {
+      position: relative;
+      display: inline-block;
+      padding: 0px 37px;
+      background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+      color: $white;
+      &::before {
+         position: absolute;
+         content: "";
+         height: 60px;
+         width: 37px;
+         background: $bbg;
+         left: -2px;
+         clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+      }
+      &::after {
+         position: absolute;
+         content: "";
+         height: 60px;
+         width: 37px;
+         background: $bbg;
+         right: -2px;
+         clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+      }
+   }
+   h1 {
+      max-width: 670px;
+      margin: 0px 0px 37px 0px;
+   }
+   p {
+      max-width: 660px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+   }
+   .wrapp {
+      display: flex;
+      justify-content: space-between;
+   }
+   padding: 100px 0px;
+   background: $bbg;
 }
 .services {
    .tabs__content {
@@ -706,4 +747,17 @@ body {
       align-items: center;
    }
    padding: 50px 0px;
+}
+//onas-page
+.intro-onas {
+   .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 230px;
+   }
+   background: #f2f7fc url("../img/onas-bg.svg") no-repeat;
+   background-position-x: right;
+   background-size: contain;
+   padding: 75px 0px;
 }

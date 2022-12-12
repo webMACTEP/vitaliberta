@@ -224,12 +224,58 @@ h1 {
   color: #0c1923;
 }
 
+h1 .mrgn {
+  margin-left: -37px;
+}
+
+h1 span {
+  position: relative;
+  display: inline-block;
+  padding: 0px 37px;
+  background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+  color: #ffffff;
+}
+
+h1 span.white-bg::before {
+  background: #fff;
+}
+
+h1 span.white-bg::after {
+  background: #fff;
+}
+
+h1 span::before {
+  position: absolute;
+  content: "";
+  height: 67px;
+  width: 37px;
+  background: #f2f7fc;
+  left: -2px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+}
+
+h1 span::after {
+  position: absolute;
+  content: "";
+  height: 67px;
+  width: 37px;
+  background: #f2f7fc;
+  right: -2px;
+  -webkit-clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
 h2 {
   margin: 0px 0px 60px 0px;
   font-weight: 600;
   font-size: 44px;
   line-height: 150%;
   color: #0c1923;
+}
+
+h2 .mrgn {
+  margin-left: -37px;
 }
 
 h2 span {
@@ -384,66 +430,6 @@ body {
           justify-content: space-between;
 }
 
-.intro {
-  padding: 100px 0px;
-  background: #f2f7fc;
-}
-
-.intro .mrgn {
-  margin-left: -37px;
-}
-
-.intro span {
-  position: relative;
-  display: inline-block;
-  padding: 0px 37px;
-  background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
-  color: #ffffff;
-}
-
-.intro span::before {
-  position: absolute;
-  content: "";
-  height: 60px;
-  width: 37px;
-  background: #f2f7fc;
-  left: -2px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
-}
-
-.intro span::after {
-  position: absolute;
-  content: "";
-  height: 60px;
-  width: 37px;
-  background: #f2f7fc;
-  right: -2px;
-  -webkit-clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
-          clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
-}
-
-.intro h1 {
-  max-width: 670px;
-  margin: 0px 0px 37px 0px;
-}
-
-.intro p {
-  max-width: 660px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.intro .wrapp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .footer {
   margin: 50px 0px 0px 0px;
 }
@@ -588,6 +574,66 @@ body {
 }
 
 .footer .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.intro {
+  padding: 100px 0px;
+  background: #f2f7fc;
+}
+
+.intro .mrgn {
+  margin-left: -37px;
+}
+
+.intro span {
+  position: relative;
+  display: inline-block;
+  padding: 0px 37px;
+  background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+  color: #ffffff;
+}
+
+.intro span::before {
+  position: absolute;
+  content: "";
+  height: 60px;
+  width: 37px;
+  background: #f2f7fc;
+  left: -2px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 10% 100%, 0 100%);
+}
+
+.intro span::after {
+  position: absolute;
+  content: "";
+  height: 60px;
+  width: 37px;
+  background: #f2f7fc;
+  right: -2px;
+  -webkit-clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(90% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.intro h1 {
+  max-width: 670px;
+  margin: 0px 0px 37px 0px;
+}
+
+.intro p {
+  max-width: 660px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.intro .wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1130,4 +1176,24 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.intro-onas {
+  background: #f2f7fc url("../img/onas-bg.svg") no-repeat;
+  background-position-x: right;
+  background-size: contain;
+  padding: 75px 0px;
+}
+
+.intro-onas .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 230px;
 }
