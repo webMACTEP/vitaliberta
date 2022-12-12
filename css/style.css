@@ -293,6 +293,11 @@ body {
   margin: 0px auto;
 }
 
+.butt {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .butt-more {
   margin: 60px auto 0px auto;
   cursor: pointer;
