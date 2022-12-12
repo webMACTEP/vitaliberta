@@ -862,3 +862,33 @@ body {
    background: #f2f7fc;
    padding: 100px 0px;
 }
+.form-questions {
+   p {
+      max-width: 280px;
+   }
+   h3 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 150%;
+      /* identical to box height, or 36px */
+
+      color: #ffffff;
+   }
+   h2 {
+      margin: 0px 0px 30px 0px;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 150%;
+      /* identical to box height, or 42px */
+
+      color: #ffffff;
+   }
+   .wrapper {
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
+      padding: 83px 100px;
+   }
+   padding: 100px 0px 50px 0px;
+}
