@@ -803,3 +803,30 @@ body {
 
    padding: 100px 0px;
 }
+.license {
+   h2 {
+      margin: 0px 0px 30px 0px;
+   }
+   .signature {
+      margin: 30px 0px 0px 0px;
+      width: 222px;
+      height: 65px;
+      background: url("../img/signature.png") no-repeat;
+   }
+   .img {
+      min-width: 640px;
+      text-align: center;
+   }
+   .info {
+      max-width: 460px;
+   }
+   .wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+   background: url("../img/lic-bg.svg") no-repeat;
+   background-position-x: right;
+   background-size: contain;
+
+   padding: 100px 0px;
+}

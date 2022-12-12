@@ -1256,3 +1256,39 @@ body {
           justify-content: space-between;
   gap: 40px;
 }
+
+.license {
+  background: url("../img/lic-bg.svg") no-repeat;
+  background-position-x: right;
+  background-size: contain;
+  padding: 100px 0px;
+}
+
+.license h2 {
+  margin: 0px 0px 30px 0px;
+}
+
+.license .signature {
+  margin: 30px 0px 0px 0px;
+  width: 222px;
+  height: 65px;
+  background: url("../img/signature.png") no-repeat;
+}
+
+.license .img {
+  min-width: 640px;
+  text-align: center;
+}
+
+.license .info {
+  max-width: 460px;
+}
+
+.license .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
