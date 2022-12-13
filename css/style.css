@@ -1725,3 +1725,73 @@ body {
   margin: 30px 0px 60px 0px;
   font-size: 44px;
 }
+
+.intro-registration {
+  background: #f2f7fc;
+  padding: 100px 0px;
+}
+
+.intro-registration .img {
+  margin: 20px 0px 0px 0px;
+}
+
+.intro-registration .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.intro-registration .video {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.intro-registration .butt {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+  padding: 17px 22px;
+  background: #0c1923;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.intro-registration span {
+  margin-left: -35px;
+}
+
+.intro-registration .line {
+  width: 1px;
+  height: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  background: #000;
+  border-left: 1px solid #bfc7ce;
+}
+
+.intro-registration .row {
+  margin: 40px 0px 40px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  gap: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.intro-registration .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
