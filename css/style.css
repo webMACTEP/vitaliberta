@@ -1399,7 +1399,7 @@ body {
   margin: 40px 0px 0px 0px;
 }
 
-.announcements .pag .active a {
+.announcements .pag li:hover, .announcements .pag li.active {
   background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 97.55%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

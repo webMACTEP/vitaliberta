@@ -908,13 +908,17 @@ body {
 .announcements {
    .pag {
       margin: 40px 0px 0px 0px;
-      .active a {
-         background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 97.55%);
-         -webkit-background-clip: text;
-         -webkit-text-fill-color: transparent;
-         background-clip: text;
-         text-fill-color: transparent;
+      li {
+         &:hover,
+         &.active {
+            background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 97.55%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+         }
       }
+
       a {
          font-weight: 400;
          font-size: 24px;
