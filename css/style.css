@@ -1372,3 +1372,21 @@ body {
   background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
   padding: 83px 100px;
 }
+
+.intro-blog {
+  background: url("../img/blog-bg.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.intro-blog .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 234px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}

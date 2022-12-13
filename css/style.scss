@@ -892,3 +892,16 @@ body {
    }
    padding: 100px 0px 50px 0px;
 }
+//blog-page
+.intro-blog {
+   h1 {
+   }
+   .container {
+      display: flex;
+      align-items: center;
+      height: 234px;
+      justify-content: center;
+   }
+   background: url("../img/blog-bg.svg") no-repeat center center;
+   background-size: cover;
+}
