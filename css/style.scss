@@ -96,6 +96,7 @@ h2 {
 }
 a {
    color: $tow;
+   transition: 0.2s;
    &:hover {
       text-decoration: underline;
    }
@@ -975,6 +976,11 @@ body {
       display: flex;
       justify-content: space-between;
       padding: 40px 0px 0px 0px;
+      .time {
+         display: flex;
+         gap: 10px;
+         align-items: center;
+      }
    }
    .text {
       flex-grow: 1;
@@ -1064,4 +1070,107 @@ body {
    }
 
    padding: 100px 0px;
+}
+//article-page
+.blog-article {
+   .content {
+      li {
+         margin-left: 20px;
+         list-style-type: disc;
+      }
+      p {
+         margin: 0px 0px 30px 0px;
+      }
+      h3 {
+         margin: 0px;
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 150%;
+         /* or 36px */
+
+         /* dark */
+
+         color: #0c1923;
+      }
+      h2 {
+         margin: 30px 0px 30px 0px;
+         font-weight: 600;
+         font-size: 24px;
+         line-height: 150%;
+         /* or 36px */
+
+         /* dark */
+
+         color: #0c1923;
+      }
+   }
+   .table-of-contents {
+      span {
+         margin: 0px 0px 30px 0px;
+         display: block;
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 150%;
+         /* identical to box height, or 30px */
+
+         /* dark */
+
+         color: #0c1923;
+      }
+      min-width: 360px;
+      li {
+         margin: 0px 0px 20px 0px;
+         a {
+            text-decoration-line: underline;
+            font-weight: 600;
+            color: #0871c7;
+         }
+      }
+   }
+   .wrapper {
+      margin: 60px 0px 0px 0px;
+      display: flex;
+      gap: 40px;
+   }
+   .img {
+      position: relative;
+      &::before {
+         content: "";
+         position: absolute;
+         right: 43px;
+         top: 43px;
+         width: 243px;
+         height: 35px;
+         background: url("../img/logo-VL.svg") no-repeat;
+      }
+      img {
+         object-fit: cover;
+         height: 644px;
+      }
+   }
+   .row {
+      margin: 0px 0px 30px 0px;
+      display: flex;
+      gap: 68px;
+      .time {
+         display: flex;
+         gap: 10px;
+         align-items: center;
+      }
+   }
+   .bread-crumbs {
+      ul {
+         display: flex;
+         align-items: center;
+         gap: 10px;
+         a {
+            display: block;
+         }
+      }
+   }
+   h1 {
+      margin: 30px 0px 60px 0px;
+      font-size: 44px;
+   }
+   padding: 60px 0px;
 }

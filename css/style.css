@@ -318,6 +318,8 @@ h2 span::after {
 
 a {
   color: #64717b;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 a:hover {
@@ -1487,6 +1489,16 @@ body {
   padding: 40px 0px 0px 0px;
 }
 
+.announcements .row .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .announcements .text {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -1588,4 +1600,128 @@ body {
 
 .announcements a {
   text-decoration: none;
+}
+
+.blog-article {
+  padding: 60px 0px;
+}
+
+.blog-article .content li {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.blog-article .content p {
+  margin: 0px 0px 30px 0px;
+}
+
+.blog-article .content h3 {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  /* dark */
+  color: #0c1923;
+}
+
+.blog-article .content h2 {
+  margin: 30px 0px 30px 0px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  /* dark */
+  color: #0c1923;
+}
+
+.blog-article .table-of-contents {
+  min-width: 360px;
+}
+
+.blog-article .table-of-contents span {
+  margin: 0px 0px 30px 0px;
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  /* dark */
+  color: #0c1923;
+}
+
+.blog-article .table-of-contents li {
+  margin: 0px 0px 20px 0px;
+}
+
+.blog-article .table-of-contents li a {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  font-weight: 600;
+  color: #0871c7;
+}
+
+.blog-article .wrapper {
+  margin: 60px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.blog-article .img {
+  position: relative;
+}
+
+.blog-article .img::before {
+  content: "";
+  position: absolute;
+  right: 43px;
+  top: 43px;
+  width: 243px;
+  height: 35px;
+  background: url("../img/logo-VL.svg") no-repeat;
+}
+
+.blog-article .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 644px;
+}
+
+.blog-article .row {
+  margin: 0px 0px 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 68px;
+}
+
+.blog-article .row .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog-article .bread-crumbs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.blog-article .bread-crumbs ul a {
+  display: block;
+}
+
+.blog-article h1 {
+  margin: 30px 0px 60px 0px;
+  font-size: 44px;
 }
