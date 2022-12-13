@@ -1541,7 +1541,7 @@ body {
 }
 
 .announcements .item:hover {
-  border: 1px solid #15466f;
+  background: #f2f7fc;
 }
 
 .announcements .wrapper {
