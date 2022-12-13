@@ -1795,3 +1795,111 @@ body {
   display: flex;
   gap: 20px;
 }
+
+.package-services {
+  padding: 100px 0px;
+}
+
+.package-services .title-js {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  color: #0c1923;
+  width: 400px;
+}
+
+.package-services .title-js.is-active {
+  background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.package-services .on {
+  width: 36px;
+  height: 36px;
+  background: url("../img/on.svg") no-repeat;
+}
+
+.package-services .off {
+  width: 36px;
+  height: 36px;
+  background: url("../img/off.svg") no-repeat;
+}
+
+.package-services .card {
+  width: 495px;
+  padding: 40px 30px;
+  border: 1px solid #0c1923;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  z-index: 1;
+  display: none;
+}
+
+.package-services .card .butt {
+  cursor: pointer;
+  margin: 16px 0px 0px 0px;
+  padding: 17px 22px;
+  font-size: 14px;
+  line-height: 17px;
+  display: inline-block;
+  color: #ffffff;
+  background: #0c1923;
+  border-radius: 5px;
+}
+
+.package-services .card p {
+  margin: 0px 0px 20px 0px;
+}
+
+.package-services .card h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  margin: 0px 0px 16px 0px;
+  color: #0c1923;
+}
+
+.package-services .card li {
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 20px;
+  border-bottom: none;
+}
+
+.package-services .card li::before {
+  content: "";
+  position: absolute;
+  left: -13px;
+  top: 11px;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background: #64717b;
+}
+
+.package-services .card.is-active {
+  display: block;
+}
+
+.package-services li {
+  position: relative;
+  border-bottom: 1px solid #bfc7ce;
+  padding: 0px 0px 25px 0px;
+  margin: 0px 0px 25px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.package-services h2 {
+  max-width: 685px;
+}

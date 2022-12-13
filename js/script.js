@@ -1,5 +1,18 @@
 jQuery(document).ready(function ($) {
 
+	$('.title-js').click(function () {
+		if ($(this).hasClass('is-active') == false) {
+			$('.title-js').removeClass('is-active');
+			$('.card').removeClass('is-active');
+			$(this).addClass('is-active').next().addClass('is-active');
+		} else {
+			$('.title-js').removeClass('is-active');
+			$('.card').removeClass('is-active');
+		}
+
+		return false;
+	});
+
 
 	$('ul.tabs__caption').on('click', 'li:not(.is-active)', function () {
 		$(this)
