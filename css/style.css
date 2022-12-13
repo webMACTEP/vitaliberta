@@ -1836,7 +1836,7 @@ body {
   background: #fff;
   position: absolute;
   left: 0;
-  top: 30px;
+  top: 100%;
   z-index: 1;
   display: none;
 }
