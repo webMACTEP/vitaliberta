@@ -1226,6 +1226,44 @@ body {
    padding: 100px 0px;
 }
 .package-services {
+   .head {
+      text-align: center;
+      justify-content: flex-end;
+      .full {
+         font-weight: 600;
+         font-size: 14px;
+         line-height: 150%;
+         /* identical to box height, or 21px */
+
+         /* dark */
+
+         color: #0c1923;
+         height: 37px;
+         width: 200px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background: url("../img/full.svg") no-repeat;
+      }
+      .premium {
+         color: #fff;
+         height: 37px;
+         width: 209px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background: url("../img/premium.svg") no-repeat;
+      }
+      .business {
+         color: #fff;
+         height: 37px;
+         width: 253px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background: url("../img/business.svg") no-repeat;
+      }
+   }
    .title-js {
       cursor: pointer;
       font-weight: 500;
@@ -1305,10 +1343,25 @@ body {
    li {
       position: relative;
       border-bottom: 1px solid #bfc7ce;
-      padding: 0px 0px 25px 0px;
+      padding: 0px 110px 25px 0px;
       margin: 0px 0px 25px 0px;
       display: flex;
       justify-content: space-between;
+      &.head {
+         padding: 0px 0px 25px 0px;
+         border-bottom: none;
+      }
+      &.footer {
+         font-weight: 700;
+         font-size: 32px;
+         line-height: 150%;
+         padding: 0px 66px 25px 0px;
+         border-bottom: none;
+         color: #0c1923;
+         .title-js {
+            width: 440px;
+         }
+      }
    }
    h2 {
       max-width: 685px;

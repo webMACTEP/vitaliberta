@@ -1800,6 +1800,66 @@ body {
   padding: 100px 0px;
 }
 
+.package-services .head {
+  text-align: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.package-services .head .full {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  /* dark */
+  color: #0c1923;
+  height: 37px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../img/full.svg") no-repeat;
+}
+
+.package-services .head .premium {
+  color: #fff;
+  height: 37px;
+  width: 209px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../img/premium.svg") no-repeat;
+}
+
+.package-services .head .business {
+  color: #fff;
+  height: 37px;
+  width: 253px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../img/business.svg") no-repeat;
+}
+
 .package-services .title-js {
   cursor: pointer;
   font-weight: 500;
@@ -1890,7 +1950,7 @@ body {
 .package-services li {
   position: relative;
   border-bottom: 1px solid #bfc7ce;
-  padding: 0px 0px 25px 0px;
+  padding: 0px 110px 25px 0px;
   margin: 0px 0px 25px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1898,6 +1958,24 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.package-services li.head {
+  padding: 0px 0px 25px 0px;
+  border-bottom: none;
+}
+
+.package-services li.footer {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  padding: 0px 66px 25px 0px;
+  border-bottom: none;
+  color: #0c1923;
+}
+
+.package-services li.footer .title-js {
+  width: 440px;
 }
 
 .package-services h2 {
