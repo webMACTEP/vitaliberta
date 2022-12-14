@@ -1981,3 +1981,21 @@ body {
 .package-services h2 {
   max-width: 685px;
 }
+
+.services.services-usluga .title {
+  margin: 0px 0px 20px 0px;
+}
+
+.services .dark {
+  color: #fff;
+  background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 97.55%);
+  /* card shadow */
+  -webkit-box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+          box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+}
+
+.services .dark .butt,
+.services .dark .title,
+.services .dark .subtitle {
+  color: #fff;
+}
