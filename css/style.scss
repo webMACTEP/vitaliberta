@@ -135,6 +135,12 @@ body {
       display: none;
    }
 }
+.butt-more-close {
+   display: none;
+   &.active {
+      display: block;
+   }
+}
 
 .header {
    .callback {

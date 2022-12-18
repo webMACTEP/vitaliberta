@@ -23,22 +23,24 @@ jQuery(document).ready(function ($) {
 	$('.benefits-butt').click(function (event) {
 		$('.benefits-wrapper').addClass('active');
 		$('.benefits-butt').addClass('active');
-		//$('.item03').removeClass('active');
 	});
 	$('.choice-butt').click(function (event) {
 		$('.choice-wrapper').addClass('active');
 		$('.choice-butt').addClass('active');
-		//$('.item03').removeClass('active');
 	});
 	$('.services-butt').click(function (event) {
 		$('.services-wrapper').addClass('active');
 		$('.services-butt').addClass('active');
-		//$('.item03').removeClass('active');
 	});
 	$('.anatomy-butt').click(function (event) {
 		$('.anatomy-wrapper').addClass('active');
 		$('.anatomy-butt').addClass('active');
-		//$('.item03').removeClass('active');
+		$('.anatomy-butt-close').addClass('active');
+	});
+	$('.anatomy-butt-close').click(function (event) {
+		$('.anatomy-wrapper').removeClass('active');
+		$('.anatomy-butt').removeClass('active');
+		$('.anatomy-butt-close').removeClass('active');
 	});
 
 	//WOW

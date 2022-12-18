@@ -368,6 +368,14 @@ body {
   display: none;
 }
 
+.butt-more-close {
+  display: none;
+}
+
+.butt-more-close.active {
+  display: block;
+}
+
 .header {
   background: #ffffff;
   padding: 30px 0px;
