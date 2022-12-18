@@ -2463,3 +2463,40 @@ ul li {
   background-position-x: 90%;
   background-position-y: center;
 }
+
+.buhuchet {
+  background: #fff;
+}
+
+.buhuchet .wrapp {
+  margin: 100px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.buhuchet .wrapp .item {
+  border: 1px solid #b6babd;
+  /* card shadow */
+  -webkit-box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+          box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+  padding: 40px 30px;
+  max-width: 360px;
+}
+
+.buhuchet .row {
+  gap: 10px;
+}
+
+.buhuchet .wrapper {
+  gap: 0;
+}
+
+.buhuchet .img {
+  margin-right: -132px;
+  margin-top: -70px;
+}

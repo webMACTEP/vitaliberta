@@ -1781,3 +1781,31 @@ ul li {
    }
    padding: 50px 0px 100px 0px;
 }
+//buhuchet-page
+.buhuchet {
+   .wrapp {
+      .item {
+         border: 1px solid #b6babd;
+         /* card shadow */
+
+         box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+         padding: 40px 30px;
+         max-width: 360px;
+      }
+      margin: 100px 0px 0px 0px;
+      display: flex;
+      gap: 40px;
+      justify-content: space-between;
+   }
+   .row {
+      gap: 10px;
+   }
+   .wrapper {
+      gap: 0;
+   }
+   .img {
+      margin-right: -132px;
+      margin-top: -70px;
+   }
+   background: #fff;
+}
