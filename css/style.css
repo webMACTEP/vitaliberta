@@ -1982,6 +1982,19 @@ body {
   max-width: 685px;
 }
 
+.services.services-usluga .services-butt.active {
+  display: none;
+}
+
+.services.services-usluga .wrapper {
+  max-height: 390px;
+  overflow: hidden;
+}
+
+.services.services-usluga .wrapper.active {
+  max-height: none;
+}
+
 .services.services-usluga .title {
   margin: 0px 0px 20px 0px;
 }

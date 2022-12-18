@@ -30,6 +30,11 @@ jQuery(document).ready(function ($) {
 		$('.choice-butt').addClass('active');
 		//$('.item03').removeClass('active');
 	});
+	$('.services-butt').click(function (event) {
+		$('.services-wrapper').addClass('active');
+		$('.services-butt').addClass('active');
+		//$('.item03').removeClass('active');
+	});
 
 	//WOW
 	//new WOW().init();

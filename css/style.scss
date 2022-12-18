@@ -1370,6 +1370,18 @@ body {
 }
 .services {
    &.services-usluga {
+      .services-butt {
+         &.active {
+            display: none;
+         }
+      }
+      .wrapper {
+         max-height: 390px;
+         overflow: hidden;
+         &.active {
+            max-height: none;
+         }
+      }
       .title {
          margin: 0px 0px 20px 0px;
       }
