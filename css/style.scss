@@ -1782,7 +1782,10 @@ ul li {
    padding: 50px 0px 100px 0px;
 }
 //buhuchet-page
-.buhuchet {
+.buhuchet-intro {
+   .info {
+      width: 63%;
+   }
    .wrapp {
       .item {
          border: 1px solid #b6babd;
@@ -1804,8 +1807,10 @@ ul li {
       gap: 0;
    }
    .img {
-      margin-right: -132px;
-      margin-top: -70px;
+      width: 37%;
+      height: 300px;
    }
-   background: #fff;
+   background: url("../img/buh-bg.svg") no-repeat #fff;
+   background-position-x: calc(50% + 320px);
+   background-position-y: top;
 }
