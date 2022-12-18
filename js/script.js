@@ -88,27 +88,41 @@ jQuery(document).ready(function ($) {
 	//new WOW().init();
 
 	//swiper slider
-	if ($('.swiper-slide').length > 1) {
-		var swiper = new Swiper('.swiper-container', {
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-			loop: false,
-			// autoplay: {
-			// 	delay: 5000,
-			// 	disableOnInteraction: false,
-			// },
-			simulateTouch: true,
-			pagination: {
-				el: '.swiper-pagination',
-				type: 'fraction',
-			},
-		});
-	} else {
-		$('.swiper-button-next').css('display', 'none');
-		$('.swiper-button-prev').css('display', 'none');
-	}
+
+	var swiper = new Swiper('.swiper-container', {
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		loop: false,
+		// autoplay: {
+		// 	delay: 5000,
+		// 	disableOnInteraction: false,
+		// },
+		simulateTouch: true,
+		pagination: {
+			el: '.swiper-pagination',
+			type: 'fraction',
+		},
+	});
+
+	var swiper2 = new Swiper('.swiper-quiz', {
+		navigation: {
+			nextEl: '.q-next',
+			prevEl: '.q-prev',
+		},
+		loop: false,
+		// autoplay: {
+		// 	delay: 5000,
+		// 	disableOnInteraction: false,
+		// },
+		simulateTouch: true,
+		pagination: {
+			el: '.q-pagination',
+			type: 'fraction',
+		},
+	});
+
 
 	//lazyload
 	// $(window).scroll(function () {

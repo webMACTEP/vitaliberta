@@ -1657,3 +1657,70 @@ ul li {
    }
    padding: 100px 0px 50px 0px;
 }
+.quiz {
+   .text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      /* or 24px */
+
+      /* text on black */
+
+      color: #b7bcbf;
+   }
+   .q-next {
+      cursor: pointer;
+      color: #0c1923;
+      width: 190px;
+      padding: 17px 22px;
+      background: #ffffff;
+      border-radius: 5px;
+   }
+   .title {
+      margin: 30px 0px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+      /* identical to box height, or 30px */
+
+      color: #ffffff;
+   }
+   .wr-1 {
+      .inpt {
+         label {
+            margin-left: 10px;
+         }
+         margin: 0px 0px 20px 0px;
+         display: flex;
+         align-items: center;
+      }
+      .info {
+         max-width: 360px;
+      }
+      .quiz-form {
+         color: #b7bcbf;
+         max-width: 460px;
+         display: flex;
+         flex-direction: column;
+      }
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   h3 {
+      margin: 0px 0px 20px 0px;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 150%;
+      /* or 42px */
+
+      color: #ffffff;
+   }
+   .wrapper {
+      height: 447px;
+      padding: 60px 100px;
+      background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
+   }
+   padding: 50px 0px 100px 0px;
+}

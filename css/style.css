@@ -2317,3 +2317,91 @@ ul li {
   top: 52px;
   background: url("../img/faq-c.svg") no-repeat;
 }
+
+.quiz {
+  padding: 50px 0px 100px 0px;
+}
+
+.quiz .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  /* text on black */
+  color: #b7bcbf;
+}
+
+.quiz .q-next {
+  cursor: pointer;
+  color: #0c1923;
+  width: 190px;
+  padding: 17px 22px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.quiz .title {
+  margin: 30px 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  color: #ffffff;
+}
+
+.quiz .wr-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.quiz .wr-1 .inpt {
+  margin: 0px 0px 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quiz .wr-1 .inpt label {
+  margin-left: 10px;
+}
+
+.quiz .wr-1 .info {
+  max-width: 360px;
+}
+
+.quiz .wr-1 .quiz-form {
+  color: #b7bcbf;
+  max-width: 460px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.quiz h3 {
+  margin: 0px 0px 20px 0px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  /* or 42px */
+  color: #ffffff;
+}
+
+.quiz .wrapper {
+  height: 447px;
+  padding: 60px 100px;
+  background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
+}
