@@ -89,10 +89,10 @@ jQuery(document).ready(function ($) {
 
 	//swiper slider
 
-	var swiper = new Swiper('.swiper-container', {
+	var swiper = new Swiper('.swiper-recommendations', {
 		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
+			nextEl: '.sp-next',
+			prevEl: '.sp-prev',
 		},
 		loop: false,
 		// autoplay: {

@@ -959,7 +959,7 @@ ul li {
   top: 50px;
 }
 
-.recommendations .navig .swiper-button-prev {
+.recommendations .navig .sp-prev {
   position: relative;
   top: 0;
   left: auto;
@@ -970,7 +970,7 @@ ul li {
   background-size: 42px 42px;
 }
 
-.recommendations .navig .swiper-button-next {
+.recommendations .navig .sp-next {
   position: relative;
   top: 0;
   width: 42px;

@@ -587,7 +587,7 @@ ul li {
       position: absolute;
       right: 0px;
       top: 50px;
-      .swiper-button-prev {
+      .sp-prev {
          position: relative;
          top: 0;
          left: auto;
@@ -597,7 +597,7 @@ ul li {
          background-image: url("../img/swiper-arrow.svg");
          background-size: 42px 42px;
       }
-      .swiper-button-next {
+      .sp-next {
          position: relative;
          top: 0;
          width: 42px;
