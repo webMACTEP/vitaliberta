@@ -162,6 +162,7 @@ ul li {
       }
    }
    li {
+      list-style-type: none;
       &.active {
          text-decoration: underline;
       }
@@ -201,6 +202,7 @@ ul li {
       background-size: cover;
    }
    li {
+      list-style-type: none;
       margin: 0px 0px 15px 0px;
    }
    nav {
@@ -419,6 +421,7 @@ ul li {
    .buttons {
       margin: 0px 0px 60px 0px;
       li {
+         list-style-type: none;
          &.butt05 {
             width: 20%;
             padding: 23px 10px;
@@ -776,6 +779,7 @@ ul li {
 }
 .about-company {
    li {
+      list-style-type: none;
       position: relative;
       padding: 0px 0px 0px 48px;
       font-weight: 500;
@@ -919,9 +923,14 @@ ul li {
    background-size: cover;
 }
 .announcements {
+   li {
+      list-style-type: none;
+      margin: 0px 0px 0px 0px;
+   }
    .pag {
       margin: 40px 0px 0px 0px;
       li {
+         list-style-type: none;
          &:hover,
          &.active {
             background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 97.55%);
@@ -1131,6 +1140,7 @@ ul li {
       }
       min-width: 360px;
       li {
+         list-style-type: none;
          margin: 0px 0px 20px 0px;
          a {
             text-decoration-line: underline;
@@ -1171,6 +1181,10 @@ ul li {
       }
    }
    .bread-crumbs {
+      li {
+         list-style-type: none;
+         margin: 0px 0px 0px 0px;
+      }
       ul {
          display: flex;
          align-items: center;

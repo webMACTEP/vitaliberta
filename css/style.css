@@ -404,6 +404,10 @@ ul li {
   color: #fff;
 }
 
+.header li {
+  list-style-type: none;
+}
+
 .header li.active {
   text-decoration: underline;
 }
@@ -461,6 +465,7 @@ ul li {
 }
 
 .footer li {
+  list-style-type: none;
   margin: 0px 0px 15px 0px;
 }
 
@@ -749,6 +754,7 @@ ul li {
 }
 
 .services .buttons li {
+  list-style-type: none;
   width: 15%;
   position: relative;
   cursor: pointer;
@@ -1222,6 +1228,7 @@ ul li {
 }
 
 .about-company li {
+  list-style-type: none;
   position: relative;
   padding: 0px 0px 0px 48px;
   font-weight: 500;
@@ -1414,8 +1421,17 @@ ul li {
   padding: 100px 0px;
 }
 
+.announcements li {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+}
+
 .announcements .pag {
   margin: 40px 0px 0px 0px;
+}
+
+.announcements .pag li {
+  list-style-type: none;
 }
 
 .announcements .pag li:hover, .announcements .pag li.active {
@@ -1668,6 +1684,7 @@ ul li {
 }
 
 .blog-article .table-of-contents li {
+  list-style-type: none;
   margin: 0px 0px 20px 0px;
 }
 
@@ -1722,6 +1739,11 @@ ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.blog-article .bread-crumbs li {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
 }
 
 .blog-article .bread-crumbs ul {
