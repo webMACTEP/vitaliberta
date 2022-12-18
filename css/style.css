@@ -376,6 +376,11 @@ body {
   display: block;
 }
 
+ul li {
+  list-style-type: disc;
+  margin: 0px 0px 0px 20px;
+}
+
 .header {
   background: #ffffff;
   padding: 30px 0px;
@@ -2132,4 +2137,73 @@ body {
 .anatomy .item {
   width: 260px;
   height: 787px;
+}
+
+.partners {
+  padding: 100px 0px 50px 0px;
+}
+
+.partners .info {
+  padding: 60px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.partners .part01 {
+  background: #f2f7fc;
+}
+
+.partners .part01 .img {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  margin-bottom: 38px;
+}
+
+.partners .part01 h3 {
+  color: #0c1923;
+}
+
+.partners .part02 {
+  color: #b7bcbf;
+  background: #0c1923;
+}
+
+.partners .part02 .img {
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+.partners .part02 h3 {
+  color: #fff;
+}
+
+.partners .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 560px;
+  height: 752px;
+}
+
+.partners .item h3 {
+  margin: 0px 0px 20px 0px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+}
+
+.partners .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 40px;
 }
