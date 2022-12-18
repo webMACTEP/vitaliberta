@@ -1658,6 +1658,14 @@ ul li {
    padding: 100px 0px 50px 0px;
 }
 .quiz {
+   .wr-4 {
+      .inpt {
+         min-width: 100%;
+      }
+      .wrapp {
+         max-width: 60%;
+      }
+   }
    .wr-3 {
       .inpt {
          min-width: 50%;
@@ -1713,7 +1721,18 @@ ul li {
 
       color: #ffffff;
    }
+   .tel {
+      input {
+         width: 100%;
+         color: #fff;
+         padding: 10px 0px;
+         border-bottom: 1px solid #fff;
+         background-color: rgba(0, 0, 0, 0);
+      }
+   }
    .inpt {
+      input {
+      }
       label {
          margin-left: 10px;
       }
@@ -1750,10 +1769,13 @@ ul li {
       height: 447px;
       padding: 60px 100px;
       background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
+      &.wr-4,
+      &.wr-6,
       &.wr-3 {
          background: url("../img/qwrqp.svg") no-repeat,
             linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
-         background-position-x: right;
+         //background-position-x: right;
+         background-position-x: 90%;
          background-position-y: center;
       }
    }

@@ -2322,6 +2322,14 @@ ul li {
   padding: 50px 0px 100px 0px;
 }
 
+.quiz .wr-4 .inpt {
+  min-width: 100%;
+}
+
+.quiz .wr-4 .wrapp {
+  max-width: 60%;
+}
+
 .quiz .wr-3 .inpt {
   min-width: 50%;
 }
@@ -2384,6 +2392,14 @@ ul li {
   color: #ffffff;
 }
 
+.quiz .tel input {
+  width: 100%;
+  color: #fff;
+  padding: 10px 0px;
+  border-bottom: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .quiz .inpt {
   min-width: 30%;
   margin: 0px 0px 12px 0px;
@@ -2442,8 +2458,8 @@ ul li {
   background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
 }
 
-.quiz .wrapper.wr-3 {
+.quiz .wrapper.wr-4, .quiz .wrapper.wr-6, .quiz .wrapper.wr-3 {
   background: url("../img/qwrqp.svg") no-repeat, linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
-  background-position-x: right;
+  background-position-x: 90%;
   background-position-y: center;
 }
