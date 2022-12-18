@@ -20,18 +20,46 @@ jQuery(document).ready(function ($) {
 			.closest('div.tabs').find('div.tabs__content').removeClass('is-active').eq($(this).index()).addClass('is-active');
 	});
 
+	//benefits
 	$('.benefits-butt').click(function (event) {
 		$('.benefits-wrapper').addClass('active');
 		$('.benefits-butt').addClass('active');
+		$('.benefits-butt-close').addClass('active');
 	});
+	$('.benefits-butt-close').click(function (event) {
+		$('.benefits-wrapper').removeClass('active');
+		$('.benefits-butt').removeClass('active');
+		$('.benefits-butt-close').removeClass('active');
+	});
+
+	//choice
 	$('.choice-butt').click(function (event) {
 		$('.choice-wrapper').addClass('active');
 		$('.choice-butt').addClass('active');
+		$('.choice-butt-close').addClass('active');
 	});
+	$('.choice-butt-close').click(function (event) {
+		$('.choice-wrapper').removeClass('active');
+		$('.choice-butt').removeClass('active');
+		$('.choice-butt-close').removeClass('active');
+	});
+
+
+	//services
 	$('.services-butt').click(function (event) {
 		$('.services-wrapper').addClass('active');
 		$('.services-butt').addClass('active');
+		$('.services-butt-close').addClass('active');
 	});
+	$('.services-butt-close').click(function (event) {
+		$('.services-wrapper').removeClass('active');
+		$('.services-butt').removeClass('active');
+		$('.services-butt-close').removeClass('active');
+	});
+
+
+
+	//anatomy
 	$('.anatomy-butt').click(function (event) {
 		$('.anatomy-wrapper').addClass('active');
 		$('.anatomy-butt').addClass('active');
