@@ -35,6 +35,11 @@ jQuery(document).ready(function ($) {
 		$('.services-butt').addClass('active');
 		//$('.item03').removeClass('active');
 	});
+	$('.anatomy-butt').click(function (event) {
+		$('.anatomy-wrapper').addClass('active');
+		$('.anatomy-butt').addClass('active');
+		//$('.item03').removeClass('active');
+	});
 
 	//WOW
 	//new WOW().init();
