@@ -1658,6 +1658,23 @@ ul li {
    padding: 100px 0px 50px 0px;
 }
 .quiz {
+   .wr-3 {
+      .inpt {
+         min-width: 50%;
+      }
+      .wrapp {
+         max-width: 60%;
+      }
+   }
+   .buttons {
+      display: flex;
+      gap: 20px;
+   }
+   .wrapp {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
    .text {
       font-weight: 400;
       font-size: 16px;
@@ -1668,10 +1685,21 @@ ul li {
 
       color: #b7bcbf;
    }
+   .q-prev {
+      margin: 20px 0px 0px 0px;
+      cursor: pointer;
+      color: #fff;
+      //width: 190px;
+      padding: 17px 22px;
+      border: 1px solid #ffffff;
+      //background: #ffffff;
+      border-radius: 5px;
+   }
    .q-next {
+      margin: 20px 0px 0px 0px;
       cursor: pointer;
       color: #0c1923;
-      width: 190px;
+      //width: 190px;
       padding: 17px 22px;
       background: #ffffff;
       border-radius: 5px;
@@ -1685,15 +1713,16 @@ ul li {
 
       color: #ffffff;
    }
-   .wr-1 {
-      .inpt {
-         label {
-            margin-left: 10px;
-         }
-         margin: 0px 0px 20px 0px;
-         display: flex;
-         align-items: center;
+   .inpt {
+      label {
+         margin-left: 10px;
       }
+      min-width: 30%;
+      margin: 0px 0px 12px 0px;
+      display: flex;
+      align-items: center;
+   }
+   .wr-1 {
       .info {
          max-width: 360px;
       }
@@ -1721,6 +1750,12 @@ ul li {
       height: 447px;
       padding: 60px 100px;
       background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
+      &.wr-3 {
+         background: url("../img/qwrqp.svg") no-repeat,
+            linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
+         background-position-x: right;
+         background-position-y: center;
+      }
    }
    padding: 50px 0px 100px 0px;
 }

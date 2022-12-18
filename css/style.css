@@ -2322,6 +2322,32 @@ ul li {
   padding: 50px 0px 100px 0px;
 }
 
+.quiz .wr-3 .inpt {
+  min-width: 50%;
+}
+
+.quiz .wr-3 .wrapp {
+  max-width: 60%;
+}
+
+.quiz .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.quiz .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .quiz .text {
   font-weight: 400;
   font-size: 16px;
@@ -2331,10 +2357,19 @@ ul li {
   color: #b7bcbf;
 }
 
+.quiz .q-prev {
+  margin: 20px 0px 0px 0px;
+  cursor: pointer;
+  color: #fff;
+  padding: 17px 22px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
 .quiz .q-next {
+  margin: 20px 0px 0px 0px;
   cursor: pointer;
   color: #0c1923;
-  width: 190px;
   padding: 17px 22px;
   background: #ffffff;
   border-radius: 5px;
@@ -2349,6 +2384,21 @@ ul li {
   color: #ffffff;
 }
 
+.quiz .inpt {
+  min-width: 30%;
+  margin: 0px 0px 12px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quiz .inpt label {
+  margin-left: 10px;
+}
+
 .quiz .wr-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2359,20 +2409,6 @@ ul li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.quiz .wr-1 .inpt {
-  margin: 0px 0px 20px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.quiz .wr-1 .inpt label {
-  margin-left: 10px;
 }
 
 .quiz .wr-1 .info {
@@ -2404,4 +2440,10 @@ ul li {
   height: 447px;
   padding: 60px 100px;
   background: linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
+}
+
+.quiz .wrapper.wr-3 {
+  background: url("../img/qwrqp.svg") no-repeat, linear-gradient(90.71deg, #0c1923 7.27%, #15466f 47.45%, #15466f 94.26%);
+  background-position-x: right;
+  background-position-y: center;
 }
