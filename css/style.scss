@@ -1943,3 +1943,43 @@ ul li {
    }
    padding: 100px 0px;
 }
+.benefits-actual {
+   .info {
+      background: #ffffff;
+      /* Line */
+
+      border: 1px solid #bfc7ce;
+      /* card shadow */
+
+      box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+      padding: 40px 30px;
+   }
+   .wrapper {
+      justify-content: space-between;
+      display: flex;
+      gap: 40px;
+   }
+   li {
+      position: relative;
+      padding: 0px 0px 0px 45px;
+      list-style-type: none;
+      &::before {
+         content: "";
+         position: absolute;
+         left: 0;
+         top: 50%;
+         margin-top: -13px;
+         width: 25px;
+         height: 26px;
+         background: url("../img/no.svg") no-repeat;
+      }
+   }
+   ul {
+      max-width: 560px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+   }
+
+   padding: 100px 0px;
+}
