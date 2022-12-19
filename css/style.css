@@ -2762,3 +2762,7 @@ ul li {
 .anatomy.buh .wrapper.active {
   max-height: none;
 }
+
+.steps.buh h2 {
+  margin: 0px 0px 60px -40px;
+}
