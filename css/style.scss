@@ -1983,3 +1983,25 @@ ul li {
 
    padding: 100px 0px;
 }
+.off-partners {
+   li {
+      color: #b7bcbf;
+   }
+   h3 {
+      margin: 0px 0px 20px 0px;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 150%;
+      /* identical to box height, or 42px */
+
+      color: #ffffff;
+   }
+   .wrapper {
+      align-items: center;
+      padding: 60px 95px 60px 60px;
+      display: flex;
+      justify-content: space-between;
+      background: #0c1923;
+   }
+   padding: 100px 0px;
+}

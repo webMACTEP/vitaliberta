@@ -2715,3 +2715,34 @@ ul li {
           flex-direction: column;
   gap: 15px;
 }
+
+.off-partners {
+  padding: 100px 0px;
+}
+
+.off-partners li {
+  color: #b7bcbf;
+}
+
+.off-partners h3 {
+  margin: 0px 0px 20px 0px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  /* identical to box height, or 42px */
+  color: #ffffff;
+}
+
+.off-partners .wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 95px 60px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #0c1923;
+}
