@@ -2623,3 +2623,42 @@ ul li {
 .select-package h2 {
   max-width: 675px;
 }
+
+.consultation {
+  padding: 100px 0px;
+}
+
+.consultation .butt-consult {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+  margin: 60px auto 0px auto;
+  display: table;
+  padding: 17px 22px;
+  background: #0c1923;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.consultation .item {
+  background: #ffffff;
+  border: 1px solid #b6babd;
+  /* card shadow */
+  -webkit-box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+          box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+  width: 560px;
+  padding: 40px 30px;
+}
+
+.consultation .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 40px;
+}

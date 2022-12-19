@@ -1911,3 +1911,35 @@ ul li {
    background: #f2f7fc;
    padding: 100px 0px;
 }
+.consultation {
+   .butt-consult {
+      transition: 0.2s;
+      cursor: pointer;
+      margin: 60px auto 0px auto;
+      display: table;
+      padding: 17px 22px;
+      background: #0c1923;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+
+      color: #ffffff;
+   }
+   .item {
+      background: #ffffff;
+      border: 1px solid #b6babd;
+      /* card shadow */
+
+      box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+      width: 560px;
+      padding: 40px 30px;
+   }
+   .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+   }
+   padding: 100px 0px;
+}
