@@ -2750,3 +2750,15 @@ ul li {
 .request.buh h3 {
   font-size: 24px;
 }
+
+.anatomy.buh .item {
+  height: 560px;
+}
+
+.anatomy.buh .wrapper {
+  max-height: 490px;
+}
+
+.anatomy.buh .wrapper.active {
+  max-height: none;
+}

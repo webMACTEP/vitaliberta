@@ -2012,3 +2012,16 @@ ul li {
       }
    }
 }
+.anatomy {
+   &.buh {
+      .item {
+         height: 560px;
+      }
+      .wrapper {
+         max-height: 490px;
+         &.active {
+            max-height: none;
+         }
+      }
+   }
+}
