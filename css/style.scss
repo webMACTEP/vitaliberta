@@ -1644,7 +1644,7 @@ ul li {
       }
       cursor: pointer;
       border-bottom: 1px solid #bfc7ce;
-      padding: 30px 0px;
+      padding: 30px 50px 30px 0px;
       list-style-type: none;
       font-weight: 600;
       font-size: 28px;
@@ -2029,6 +2029,15 @@ ul li {
    &.buh {
       h2 {
          margin: 0px 0px 60px -40px;
+      }
+   }
+}
+.quiz {
+   &.buh {
+      .wr-1 {
+         .inpt {
+            min-width: 50%;
+         }
       }
    }
 }
