@@ -2149,3 +2149,14 @@ ul li {
    background: #f2f7fc;
    padding: 100px 0px;
 }
+.anatomy {
+   &.apo {
+      .item {
+         height: 587px;
+      }
+      .wrapper {
+         max-height: none;
+      }
+      background: #fff;
+   }
+}
