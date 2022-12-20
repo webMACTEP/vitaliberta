@@ -2066,3 +2066,27 @@ ul li {
    padding: 50px 0px;
    background: #ffffff;
 }
+.apostil {
+   p {
+      margin: 0px 0px 20px 0px;
+   }
+   h3 {
+      margin: 0px 0px 20px 0px;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 150%;
+      /* identical to box height, or 42px */
+
+      color: #ffffff;
+   }
+   .wrapper {
+      padding: 60px;
+      background: url("../img/apo-img.svg") #0c1923 no-repeat;
+      background-position-x: 95%;
+      background-position-y: center;
+      //background-size: 13%;
+   }
+   color: #b7bcbf;
+   background: #fff;
+   padding: 50px 0px 100px 0px;
+}
