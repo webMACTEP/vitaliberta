@@ -2829,3 +2829,75 @@ ul li {
   background-position-x: 95%;
   background-position-y: center;
 }
+
+.choise {
+  background: #f2f7fc;
+  padding: 100px 0px;
+}
+
+.choise .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 40px;
+}
+
+.choise .price {
+  margin: 30px 0px 0px 0px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  /* identical to box height, or 42px */
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  /* градиент */
+  background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.choise .butt {
+  cursor: pointer;
+  padding: 17px 22px;
+  background: #0c1923;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.choise .butt:hover {
+  background: #15466f;
+}
+
+.choise h3 {
+  margin: 0px 0px 30px 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  text-align: center;
+  color: #0c1923;
+}
+
+.choise .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffffff;
+  padding: 40px 30px;
+  border: 1px solid #bfc7ce;
+  width: 360px;
+  height: 450px;
+}
