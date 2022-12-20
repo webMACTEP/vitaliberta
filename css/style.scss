@@ -2039,3 +2039,30 @@ ul li {
       }
    }
 }
+//apostil-page
+.apo-intro {
+   .wrapp {
+      .item {
+         border: 1px solid #b6babd;
+         /* card shadow */
+
+         box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+         padding: 40px 30px;
+         max-width: 360px;
+      }
+      margin: 50px 0px 0px 0px;
+      display: flex;
+      gap: 40px;
+      justify-content: space-between;
+   }
+   .wrapper {
+      align-items: center;
+      gap: 130px;
+      //justify-content: space-between;
+   }
+   .buttons {
+      margin: 40px 0px 0px 0px;
+   }
+   padding: 50px 0px;
+   background: #ffffff;
+}

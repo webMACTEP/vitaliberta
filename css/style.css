@@ -2767,3 +2767,39 @@ ul li {
 .quiz.buh .wr-1 .inpt {
   min-width: 50%;
 }
+
+.apo-intro {
+  padding: 50px 0px;
+  background: #ffffff;
+}
+
+.apo-intro .wrapp {
+  margin: 50px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.apo-intro .wrapp .item {
+  border: 1px solid #b6babd;
+  /* card shadow */
+  -webkit-box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+          box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+  padding: 40px 30px;
+  max-width: 360px;
+}
+
+.apo-intro .wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 130px;
+}
+
+.apo-intro .buttons {
+  margin: 40px 0px 0px 0px;
+}
