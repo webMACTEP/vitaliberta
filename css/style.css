@@ -372,6 +372,10 @@ body {
   display: none;
 }
 
+.butt-more-close:hover {
+  text-decoration: none;
+}
+
 .butt-more-close.active {
   display: block;
 }

@@ -136,6 +136,9 @@ body {
    }
 }
 .butt-more-close {
+   &:hover {
+      text-decoration: none;
+   }
    display: none;
    &.active {
       display: block;
