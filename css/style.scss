@@ -2318,3 +2318,21 @@ ul li {
    background-size: contain;
    padding: 75px 0px;
 }
+.choise.legal {
+   .item {
+      width: 560px;
+      height: 440px;
+   }
+   background: #fff;
+}
+.anatomy.legal {
+   .wrapper {
+      max-height: 630px;
+      &.active {
+         max-height: none;
+      }
+   }
+   .item {
+      height: 600px;
+   }
+}

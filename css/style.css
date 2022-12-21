@@ -3096,3 +3096,24 @@ ul li {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.choise.legal {
+  background: #fff;
+}
+
+.choise.legal .item {
+  width: 560px;
+  height: 440px;
+}
+
+.anatomy.legal .wrapper {
+  max-height: 630px;
+}
+
+.anatomy.legal .wrapper.active {
+  max-height: none;
+}
+
+.anatomy.legal .item {
+  height: 600px;
+}
