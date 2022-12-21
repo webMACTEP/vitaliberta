@@ -2164,13 +2164,34 @@ ul li {
    }
 }
 .steps.apo {
+   .items {
+      width: 860px;
+   }
+   .tabs__content {
+      display: none;
+      &.is-active {
+         display: block;
+      }
+   }
    .wrapper {
       display: flex;
       justify-content: space-between;
       gap: 140px;
 
       p {
+         font-weight: 400;
+         font-size: 20px;
+         line-height: 150%;
+         /* or 30px */
+
+         /* text on black */
+
+         color: #b7bcbf;
          margin: 30px 0px 0px 0px;
+         span {
+            font-weight: 600;
+            font-size: 20px;
+         }
       }
    }
    ul li {

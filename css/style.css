@@ -2918,6 +2918,18 @@ ul li {
   max-height: none;
 }
 
+.steps.apo .items {
+  width: 860px;
+}
+
+.steps.apo .tabs__content {
+  display: none;
+}
+
+.steps.apo .tabs__content.is-active {
+  display: block;
+}
+
 .steps.apo .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2929,7 +2941,18 @@ ul li {
 }
 
 .steps.apo .wrapper p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  /* text on black */
+  color: #b7bcbf;
   margin: 30px 0px 0px 0px;
+}
+
+.steps.apo .wrapper p span {
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .steps.apo ul li {
