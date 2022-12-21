@@ -2428,6 +2428,47 @@ ul li {
    padding: 100px 0px;
 }
 .services.change {
+   .buttons li {
+      &.is-active::after {
+         display: none;
+      }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 0px;
+      &:nth-child(1) {
+         width: 20%;
+      }
+      &:nth-child(2) {
+         border-left: none;
+         border-right: none;
+         width: 20%;
+      }
+      &:nth-child(3) {
+         border-right: none;
+         width: 40%;
+      }
+      &:nth-child(4) {
+         width: 20%;
+      }
+      &:nth-child(5) {
+         border-top: none;
+         width: 30%;
+      }
+      &:nth-child(6) {
+         border-top: none;
+         border-left: none;
+         border-right: none;
+         width: 40%;
+      }
+      &:nth-child(7) {
+         border-top: none;
+         width: 30%;
+      }
+   }
+   .tabs__caption {
+      flex-wrap: wrap;
+   }
    .wrapper-change {
       max-height: 1130px;
       overflow: hidden;

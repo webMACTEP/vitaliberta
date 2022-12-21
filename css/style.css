@@ -3223,6 +3223,64 @@ ul li {
   text-align: center;
 }
 
+.services.change .buttons li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 0px;
+}
+
+.services.change .buttons li.is-active::after {
+  display: none;
+}
+
+.services.change .buttons li:nth-child(1) {
+  width: 20%;
+}
+
+.services.change .buttons li:nth-child(2) {
+  border-left: none;
+  border-right: none;
+  width: 20%;
+}
+
+.services.change .buttons li:nth-child(3) {
+  border-right: none;
+  width: 40%;
+}
+
+.services.change .buttons li:nth-child(4) {
+  width: 20%;
+}
+
+.services.change .buttons li:nth-child(5) {
+  border-top: none;
+  width: 30%;
+}
+
+.services.change .buttons li:nth-child(6) {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 40%;
+}
+
+.services.change .buttons li:nth-child(7) {
+  border-top: none;
+  width: 30%;
+}
+
+.services.change .tabs__caption {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .services.change .wrapper-change {
   max-height: 1130px;
   overflow: hidden;
