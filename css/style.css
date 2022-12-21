@@ -3222,3 +3222,31 @@ ul li {
 .change-docs h2 {
   text-align: center;
 }
+
+.services.change .wrapper-change {
+  max-height: 1130px;
+  overflow: hidden;
+}
+
+.services.change .wrapper-change.active {
+  max-height: none;
+}
+
+.services.change .title {
+  margin: 30px 0px 20px 0px;
+}
+
+.services.change .item {
+  width: 560px;
+}
+
+.services.change .img {
+  margin: 0px 0px 20px 0px;
+  width: 560px;
+}
+
+.services.change .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

@@ -84,6 +84,18 @@ jQuery(document).ready(function ($) {
 		$('.anatomy-butt-close').removeClass('active');
 	});
 
+	//change
+	$('.change-butt').click(function (event) {
+		$('.wrapper-change').addClass('active');
+		$('.change-butt').addClass('active');
+		$('.change-butt-close').addClass('active');
+	});
+	$('.change-butt-close').click(function (event) {
+		$('.wrapper-change').removeClass('active');
+		$('.change-butt').removeClass('active');
+		$('.change-butt-close').removeClass('active');
+	});
+
 	//WOW
 	//new WOW().init();
 
