@@ -2266,3 +2266,55 @@ ul li {
       }
    }
 }
+//legal-page
+.intro-legal {
+   .buttons {
+      display: flex;
+      gap: 20px;
+   }
+   .video {
+      cursor: pointer;
+      display: inline-block;
+   }
+   .butt {
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+
+      color: #ffffff;
+      padding: 17px 22px;
+      background: #0c1923;
+      border-radius: 5px;
+      display: inline-block;
+   }
+   span {
+      margin-left: -35px;
+   }
+   .line {
+      width: 1px;
+      height: 100%;
+      flex-grow: 0;
+      background: #000;
+      border-left: 1px solid #bfc7ce;
+   }
+   .row {
+      margin: 40px 0px 40px 0px;
+      display: flex;
+      align-items: center;
+      height: 90px;
+      gap: 30px;
+      justify-content: space-between;
+   }
+   .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      //gap: 230px;
+   }
+   background: #f2f7fc url("../img/legal-bg.svg") no-repeat;
+   background-position-x: right;
+   background-size: contain;
+   padding: 75px 0px;
+}
