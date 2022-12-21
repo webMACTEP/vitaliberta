@@ -3015,3 +3015,11 @@ ul li {
 .steps.apo ol li:nth-last-child(1)::after {
   display: block;
 }
+
+.quiz.apo .wr-2 .inpt {
+  min-width: 50%;
+}
+
+.quiz.apo .wr-1 .inpt {
+  min-width: 100%;
+}
