@@ -317,7 +317,7 @@ ul li {
       display: flex;
       justify-content: space-between;
    }
-   margin: 50px 0px 0px 0px;
+   margin: 0px 0px 0px 0px;
 }
 //main-page
 .intro {
@@ -2335,4 +2335,95 @@ ul li {
    .item {
       height: 600px;
    }
+}
+//change-page
+.apo-intro.intro-change {
+   p {
+      max-width: 280px;
+      margin: 40px 0px;
+   }
+   .wrapper {
+      justify-content: space-between;
+      gap: 50px;
+   }
+}
+.about-change {
+   .item {
+      max-width: 360px;
+      padding: 40px 30px;
+      background: #ffffff;
+      border: 1px solid #b6babd;
+      /* card shadow */
+
+      box-shadow: 2px 4px 30px rgba(21, 42, 59, 0.04);
+   }
+   .wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+   padding: 100px 0px;
+   background: #0c1923;
+}
+.change-docs {
+   .butt {
+      cursor: pointer;
+      margin: 60px auto 0px auto;
+      display: table;
+      padding: 17px 22px;
+      background: #0c1923;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+
+      color: #ffffff;
+   }
+   .price {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 150%;
+      /* identical to box height, or 42px */
+
+      text-align: center;
+
+      /* градиент */
+
+      background: linear-gradient(90.71deg, #15466f 7.27%, #3387ca 97.55%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+   }
+   .title {
+      margin: 40px 0px 50px 0px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 150%;
+      /* or 36px */
+
+      text-align: center;
+
+      /* dark */
+
+      color: #0c1923;
+   }
+   .item {
+      img {
+         width: 260px;
+         height: 367px;
+         object-fit: cover;
+      }
+      max-width: 260px;
+   }
+   .wrapper {
+      display: flex;
+      justify-content: center;
+      gap: 88px;
+   }
+   h2 {
+      text-align: center;
+   }
+   background: #f2f7fc;
+   padding: 100px 0px;
 }
